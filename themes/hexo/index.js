@@ -82,7 +82,8 @@ const LayoutBase = props => {
       {showRandomButton && <ButtonRandomPostMini {...props} />}
     </>
   )
-
+  // Algolia搜索框
+  const searchModal = useRef(null)
    return (
     <ThemeGlobalHexo.Provider value={{ searchModal }}>
       <div
