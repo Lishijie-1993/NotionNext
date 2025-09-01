@@ -89,10 +89,7 @@ const LayoutBase = props => {
       <div
         id='theme-hexo'
         className={`${siteConfig('FONT_STYLE')} dark:bg-black scroll-smooth`}>
-        <script
-          data-cfasync='false'
-          dangerouslySetInnerHTML={{ __html: adScript }}
-        />
+        
         <Style />
 
         {/* 顶部导航 */}
